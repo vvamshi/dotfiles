@@ -111,4 +111,7 @@ Plugin 'sjl/badwolf'
 " Utilities, Dependencies
 Plugin 'L9'
 
+" Color scheme
+Bundle 'flazz/vim-colorschemes'
+
 call vundle#end()
