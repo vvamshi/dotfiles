@@ -112,9 +112,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export CUDA_HOME=/usr/local/cuda-6.0
-export LD_LIBRARY_PATH=${CUDA_HOME}/lib64
-export PATH=${PATH}:${CUDA_HOME}/bin
 
 export http_proxy=http://cs12b1039:123@192.168.36.22:3128/
 export htts_proxy=http://cs12b1039:123@192.168.36.22:3128/
